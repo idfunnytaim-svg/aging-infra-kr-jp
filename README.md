@@ -10,7 +10,7 @@
 |---|---|
 | [`presentation/`](presentation) | 팀 발표자료 — 발표 PPT(`커피팀_발표ppt.pdf`), 발표 대본(`발표 대본.pdf`) |
 | [`sql_cleaning/`](sql_cleaning) | 원본 CSV → 정제 → ERD 테이블 조립까지 SQL만으로 구현한 전처리 파이프라인(00~17번, 18개 파일) |
-| [`powerbi/`](powerbi) | Power BI 최종 결과물 — `pbix파일/`(실제 pbix), `그래프이미지/`(스크린샷) |
+| [`powerbi/`](powerbi) | Power BI 최종 결과물 — `그래프이미지/`(스크린샷). 원본 `.pbix` 파일은 바이너리라 레포에서 제외(`.gitignore`), 로컬에는 보존 |
 | [`팀원공유0826v4/`](팀원공유0826v4) | 팀 공유 스냅샷(6테이블 `powerbi_export` 기준) — 가이드·데이터사전·전처리 로그 포함 |
 | [`0831/`](0831) | SQL 정제 결과(`sql_cleaning/`) 기준 `powerbi_export_sql` 스냅샷 |
 | [`개인보고서/`](개인보고서) | 개인 관점 보고서(팀 공동 산출물과 별개, 해석·서술은 개인 저작) |
