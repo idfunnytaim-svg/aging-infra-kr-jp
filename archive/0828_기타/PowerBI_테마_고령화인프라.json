@@ -1,0 +1,28 @@
+{
+  "name": "고령화인프라_프로젝트테마",
+  "dataColors": [
+    "#2a78d6",
+    "#eb6834",
+    "#52514e",
+    "#898781",
+    "#8fb3e6",
+    "#f2ac8c",
+    "#c3c2b7",
+    "#0b0b0b"
+  ],
+  "background": "#fcfcfb",
+  "foreground": "#0b0b0b",
+  "tableAccent": "#2a78d6",
+  "good": "#2a78d6",
+  "neutral": "#898781",
+  "bad": "#eb6834",
+  "visualStyles": {
+    "*": {
+      "*": {
+        "background": [{ "show": false }],
+        "border": [{ "show": false }],
+        "outspacePane": [{ "backgroundColor": { "solid": { "color": "#fcfcfb" } } }]
+      }
+    }
+  }
+}
