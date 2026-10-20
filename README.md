@@ -46,7 +46,7 @@ flowchart LR
 
     DB --> ANALYSIS["SQL 분석\nsql/analysis/q1~q5"]
     ANALYSIS --> VIZ["matplotlib 시각화\nscripts/visualize*.py"]
-    VIZ --> FIG["figures/\nPNG 26장"]
+    VIZ --> FIG["figures/\nPNG 27장"]
     ANALYSIS --> PBI["Power BI 대시보드\n(팀 공동)"]
 
     FIG --> REPORT["보고서 / 발표자료"]
@@ -114,7 +114,7 @@ python scripts/build_cleaning_db.py
 | [`sql/`](sql) | DDL, 분석 쿼리(q1~q5) |
 | [`sql_cleaning/`](sql_cleaning) | 전처리 전 과정을 SQL만으로 재현한 교차검증 파이프라인(00~17번) |
 | [`data/`](data) | 원본 CSV(`raw/`), 정제 CSV(`cleaned/`), SQL DB(`aging_infra.db`) |
-| [`figures/`](figures) | matplotlib 시각화 26장 |
+| [`figures/`](figures) | matplotlib 시각화 27장(최종 선정 10장과 생성 스크립트는 [`figures/README.md`](figures/README.md)) |
 | [`powerbi/`](powerbi) | Power BI 최종 그래프 10종(PDF)과 스크린샷 |
 | [`개인보고서/`](개인보고서) | 개인 보고서 [`보고서_심슨의역설.md`](개인보고서/보고서_심슨의역설.md): 지표 정의 차이가 상관관계 부호를 뒤집는 원인 분석. [`검증_노트.md`](개인보고서/검증_노트.md)에 보고서 수치를 DB로 재검증한 과정 기록 |
 | [`presentation/`](presentation) | 최종 발표자료(PDF, 51장) |

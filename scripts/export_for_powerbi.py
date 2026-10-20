@@ -1,6 +1,6 @@
 """Power BI import용 정제 데이터 CSV export.
 data/aging_infra.db(SQLite)의 Dim_Region/Dim_Date/Fact_RegionStats를 조인해
-region+year 단위 flat wide CSV 한 장으로 만든다. 결측치(일본 2024년 인프라)는
+region+year 단위 flat wide CSV 한 장으로 만든다. 결측치(각 지역 2015년 pop_change_rate)는
 빈 값으로 그대로 둔다 — Power BI에서 결측 처리를 직접 하도록.
 """
 import csv

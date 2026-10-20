@@ -24,3 +24,5 @@ CLAUDE.md
 # 구버전 산출물 보관 폴더 (로컬에만 보존)
 /archive/
 /0906_1.pptx
+/0906/
+/data/cleaning_process.db
