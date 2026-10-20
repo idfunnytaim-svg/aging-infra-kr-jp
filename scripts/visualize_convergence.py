@@ -1,5 +1,5 @@
-"""개인 보고서 v3(수렴/발산 분석) 전용 신규 그래프 3종.
-팀 공동 산출물(figures/, powerbi/)에는 없는 개인 관점 분석이라 개인보고서/그래프_v3/에 저장한다.
+"""개인 보고서 5.3절(집계 수준) 근거 그래프 3종.
+팀 공동 산출물(figures/, powerbi/)에는 없는 개인 관점 분석이라 개인보고서/그래프/에 저장한다.
 색상·스타일은 scripts/visualize.py의 팔레트·규칙을 그대로 재사용(팀 그래프와 시각적 통일감 유지).
 
 1. 01_sigma_convergence_combined.png — 국가 간(통합) 시그마수렴: 연도별 결합 표준편차 추이
@@ -16,7 +16,7 @@ import pandas as pd
 
 BASE = Path(__file__).parent.parent
 DB_PATH = BASE / "data" / "aging_infra.db"
-OUT_DIR = BASE / "개인보고서" / "그래프_v3"
+OUT_DIR = BASE / "개인보고서" / "그래프"
 OUT_DIR.mkdir(parents=True, exist_ok=True)
 
 FONT_PATH = "/System/Library/Fonts/Supplemental/AppleGothic.ttf"

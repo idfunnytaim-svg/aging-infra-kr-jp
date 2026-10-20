@@ -111,7 +111,7 @@ python scripts/build_cleaning_db.py
 | [`data/`](data) | 원본 CSV(`raw/`), 정제 CSV(`cleaned/`), SQL DB(`aging_infra.db`) |
 | [`figures/`](figures) | matplotlib 시각화 26장 |
 | [`powerbi/`](powerbi) | Power BI 대시보드 스크린샷 |
-| [`개인보고서/`](개인보고서) | 개인 관점 심화 분석(Simpson's paradox 등 팀 산출물 외 추가 분석). [`검증_노트.md`](개인보고서/검증_노트.md)에 보고서 수치를 DB로 재검증한 과정 기록 |
+| [`개인보고서/`](개인보고서) | 개인 보고서 [`보고서_심슨의역설.md`](개인보고서/보고서_심슨의역설.md): 지표 정의 차이가 상관관계 부호를 뒤집는 원인 분석. [`검증_노트.md`](개인보고서/검증_노트.md)에 보고서 수치를 DB로 재검증한 과정 기록 |
 | [`presentation/`](presentation) | 발표 대본 |
 | [`archive/`](archive) | 대체된 구버전 산출물 보관(참고용) |
 
