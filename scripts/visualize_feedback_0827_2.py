@@ -156,7 +156,7 @@ def fig_22_region_top10_only(con):
 def fig_23_increase_top5_by_country(con):
     """Power BI 재현: 가로 막대형 차트 2개(한국용/일본용) — 10번(TOP15 통합, 한국이
     싹쓸이)을 보완해 일본 지역도 눈에 보이게 국가별로 각각 TOP5.
-    - 계산 열/측정값: PowerBI_가이드.md 4-2의 `증가폭_2015_2023` 그대로 재사용
+    - 계산 열/측정값: `증가폭_2015_2023` (2023년 고령화율 - 2015년 고령화율)
     - 값: 증가폭_2015_2023, 필터: country=KR(또는 JP) + 상위 N=5
     """
     rows = con.execute("""

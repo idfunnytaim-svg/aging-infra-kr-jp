@@ -4,7 +4,7 @@ Power BI Desktop에서는 홈 → 데이터 가져오기 → 텍스트/CSV로 �
 하나씩 불러온 뒤, 모델 보기에서 관계(ERD)를 잡으면 된다.
 
 Dim_Country/Fact_Population/Fact_Infra는 Fact_RegionStats를 국가 차원과
-인구/인프라 지표로 나눈 스노우플레이크 버전(docs/PowerBI_가이드.md 6장 참고).
+인구/인프라 지표로 나눈 스노우플레이크 버전(docs/기획서.md 2.4 참고).
 기존 Fact_RegionStats.csv도 호환을 위해 계속 내보내지만, 둘을 같은 Power BI
 파일에 함께 불러오면 관계가 중복돼 헷갈리므로 한쪽만 골라 쓸 것.
 

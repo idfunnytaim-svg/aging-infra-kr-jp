@@ -7,7 +7,7 @@
 -- 기획서 2.4~2.6 스키마 그대로 구현.
 -- Dim_Country/Fact_Population/Fact_Infra는 2026-08-26 추가 — Power BI ERD를
 -- 스노우플레이크 구조로 확장하기 위함(docs/기획서.md 2.4~2.6 및
--- docs/PowerBI_가이드.md 6장 참고). Fact_RegionStats는 그대로 두고
+-- docs/기획서.md 2.4 참고). Fact_RegionStats는 그대로 두고
 -- Fact_Population/Fact_Infra는 그 위에 얹는 VIEW라 기존 SQL 분석
 -- (sql/analysis/q1~q5.sql)과 scripts/visualize.py는 영향받지 않는다.
 -- 2026-08-26(2): Power BI에 보여줄 모델을 4테이블로 다듬음 —

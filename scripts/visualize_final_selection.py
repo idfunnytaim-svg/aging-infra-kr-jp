@@ -68,7 +68,7 @@ def fig_24_indicators_combined(con):
 def fig_25_medical_care_donut(con):
     """Power BI 재현: 도넛형 차트(Donut chart) 2개(한국용/일본용).
     - 범례: 지표(병상수/요양기관수), 값: SUM(medical_beds_per_10k), SUM(care_facility_per_10k)
-    - Power BI 도넛은 피벗 해제(지표/값 두 열)가 필요 — PowerBI_가이드.md 2-3 참고."""
+    - Power BI 도넛은 피벗 해제(지표/값 두 열)가 필요."""
     rows = con.execute("""
         SELECT r.country, SUM(f.medical_beds_per_10k), SUM(f.care_facility_per_10k)
         FROM Fact_RegionStats f
