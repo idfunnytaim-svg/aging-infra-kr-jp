@@ -3,7 +3,7 @@
 
 목적: preprocess_and_load.py는 정제(필터링/피벗/중복제거/병합/파생컬럼)를
 전부 pandas로 처리해서, "SQL로 데이터를 정제/적재한 흔적"이 코드 어디에도
-안 남아있었다. 이 스크립트는 그 로직을 sql/cleaning/*.sql(초보자 수준
+안 남아있었다. 이 스크립트는 그 로직을 sql_cleaning/*.sql(초보자 수준
 SELECT/WHERE/CASE WHEN/GROUP BY/JOIN/self-JOIN만 사용, 윈도우함수·CTE 배제)로
 다시 구현해서 "원본 -> 정제 -> ERD(Dim_Country/Dim_Region/Dim_Date/
 Fact_RegionStats/Fact_Population/Fact_Infra)"까지 전 과정을 보여주기 위한 것이다.
