@@ -31,7 +31,7 @@
   - ⭐ Insight 후보 발견 2건 (`PROGRESS.md` 2026-08-25 참고): (1) 고령화율×요양기관수 상관계수가 국가 내부(KR +0.74, JP +0.82)와 국가 통합(-0.67)에서 부호가 뒤집힘 — 한/일 "장기요양기관" 정의 범위 차이 때문(Simpson's paradox). (2) 인프라 격차지수를 전역 랭킹으로 하면 일본 고령화율이 전반적으로 높아서 TOP15가 전부 일본으로 쏠림 — `visualize.py`는 국가별(PARTITION BY country) 랭킹으로 바꿔서 시각화.
 - [x] 기획서 Page3(Insight 1~3, Action Plan) 작성 완료 — `docs/기획서.md`. 위 Insight 2건 + 신규 발견 1건(한국 고령화 속도가 일본의 약 1.8배, 연 0.72%p vs 0.41%p, 2015~2023 기준) 반영.
 - [ ] 보고서 작성 — `docs/기획서.md` 1~3장 + `figures/*.png`를 정리해 최종 산출물로 묶기
-- [ ] 발표자료 작성
+- [x] 발표자료 작성 — `presentation/커피팀_발표ppt.pdf`, `presentation/발표 대본.pdf`
 
 ## 3. DB 접속 정보
 
@@ -96,7 +96,7 @@ DB를 조회할 때는 `scripts/` 아래에 파이썬 스크립트를 만들어 
 │   └── cleaning/                    # sql_cleaning/과 로직 동일한 원본(검증 스크립트 build_cleaning_db.py가 참조하는 경로, 건드리지 않음)
 ├── figures/                         # 그래프 PNG 26장 (완료, 기획서 Page1~3 와이어프레임 대응)
 ├── archive/                         # 구버전/대체된 산출물 보관(삭제 아님) — zips/(구버전 zip 12개), 0828_기타/, 0831_power/, 최종선정그래프/, docs_backup/
-└── presentation/                    # [생성 필요] 발표자료
+└── presentation/                    # 발표자료 — 커피팀_발표ppt.pdf, 발표 대본.pdf (완료)
 ```
 
 ## 6. 작업 규칙 (중요)
