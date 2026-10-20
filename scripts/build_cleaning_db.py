@@ -28,7 +28,7 @@ RAW_DIR = os.path.join(BASE_DIR, "data", "raw")
 CLEANED_DIR = os.path.join(BASE_DIR, "data", "cleaned")
 DB_PATH = os.path.join(BASE_DIR, "data", "cleaning_process.db")
 PROD_DB_PATH = os.path.join(BASE_DIR, "data", "aging_infra.db")
-SQL_DIR = os.path.join(BASE_DIR, "sql", "cleaning")
+SQL_DIR = os.path.join(BASE_DIR, "sql_cleaning")
 
 # raw_* 테이블명 -> 원본 CSV 파일명 (컬럼명은 CSV 헤더와 동일하게 그대로 적재)
 RAW_SOURCES = {

@@ -5,3 +5,10 @@ __pycache__/
 .DS_Store
 CLAUDE.md
 *.pbix
+
+# 포트폴리오 정리 2차 — 중복 스냅샷/실명 폴더/대용량 발표PPT (로컬에는 보존)
+/팀원/
+/팀원공유0826v4/
+/0831/
+/sql/cleaning/
+/presentation/커피팀_발표ppt.pdf
