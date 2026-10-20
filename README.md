@@ -65,7 +65,7 @@ flowchart LR
 
 ## 트러블슈팅
 
-데이터 전처리 담당자로서 실제로 막혔던 문제와 해결 과정(근거: `CLAUDE.md`/`docs/PROGRESS.md` 세션 로그, `docs/전처리_로그.md`).
+데이터 전처리 담당자로서 실제로 막혔던 문제와 해결 과정(근거: `docs/전처리_로그.md`).
 
 1. **장기요양기관 수가 지역마다 중복 집계되는 버그**
    - 원인: KOSIS API 응답의 2차 분류축(`C2_NM`, 시설유형 세부구분)을 무시하고 수집해서, "계"(합계) 행과 세부유형 행이 같은 항목명으로 뭉개져 region×year당 값이 중복됐다.
@@ -104,14 +104,14 @@ python scripts/build_cleaning_db.py
 
 | 경로 | 내용 |
 |---|---|
-| [`docs/`](docs) | 기획서, 데이터출처, 데이터사전, 전처리 로그, 세션 진행 기록(`PROGRESS.md`) |
+| [`docs/`](docs) | 기획서, 데이터출처, 데이터사전, 전처리 로그 |
 | [`scripts/`](scripts) | 수집·전처리·분석·시각화 Python 파이프라인 |
 | [`sql/`](sql) | DDL, 분석 쿼리(q1~q5) |
 | [`sql_cleaning/`](sql_cleaning) | 전처리 전 과정을 SQL만으로 재현한 교차검증 파이프라인(00~17번) |
 | [`data/`](data) | 원본 CSV(`raw/`), 정제 CSV(`cleaned/`), SQL DB(`aging_infra.db`) |
 | [`figures/`](figures) | matplotlib 시각화 26장 |
 | [`powerbi/`](powerbi) | Power BI 대시보드 스크린샷 |
-| [`개인보고서/`](개인보고서) | 개인 관점 심화 분석(Simpson's paradox 등 팀 산출물 외 추가 분석) |
+| [`개인보고서/`](개인보고서) | 개인 관점 심화 분석(Simpson's paradox 등 팀 산출물 외 추가 분석). [`검증_노트.md`](개인보고서/검증_노트.md)에 보고서 수치를 DB로 재검증한 과정 기록 |
 | [`presentation/`](presentation) | 발표 대본 |
 | [`archive/`](archive) | 대체된 구버전 산출물 보관(참고용) |
 
